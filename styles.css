@@ -9,3 +9,13 @@ body {
 span [
     color: black;
 ]
+
+header [
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-allignment: center;
+]
+
+img {
+    width: 100%;
+}
