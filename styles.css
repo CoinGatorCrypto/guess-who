@@ -2,39 +2,36 @@ body {
     background-color:#F0EFEC;
 }
 
-div.cards {
+.cards {
     background-color: white;
-    grid-template-columns: ;
-    grid-template-rows: ;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
     column-gap: 20px;
-    grid-template-areas:
-    "a b c d e"
-    "f g h i j"
-    "k l m n o"
-    "p q r s t"
-    align-items: start; 
-}
+    align-items: center; 
+    justify-content: center;
+    justify-items: normal;
 }
 
-span [
+
+span {
     color: black;
-]
+}
 
-div.header [
+
+.header {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     width 160px;
-    grid-allignment: center; 
+    align-items: center; 
+    justify-content: center;
+    justify-items: normal;
     
-]
+}
 
 img {
-    width: 100%;
+    width: 25%;
 }
 
-div.instructions {
-
-}
 
 .wrap {
     width: 900px;
