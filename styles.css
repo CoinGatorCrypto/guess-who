@@ -2,20 +2,44 @@ body {
     background-color:#F0EFEC;
 }
 
-.card {
+div.cards {
     background-color: white;
+    grid-template-columns: ;
+    grid-template-rows: ;
+    column-gap: 20px;
+    grid-template-areas:
+    "a b c d e"
+    "f g h i j"
+    "k l m n o"
+    "p q r s t"
+    align-items: start; 
+}
 }
 
 span [
     color: black;
 ]
 
-header [
+div.header [
     display: grid;
-    grid-template-columns: 50% 50%;
-    grid-allignment: center;
+    grid-template-columns: 1fr;
+    width 160px;
+    grid-allignment: center; 
+    
 ]
 
 img {
     width: 100%;
+}
+
+div.instructions {
+
+}
+
+.wrap {
+    width: 900px;
+    margin-top: 40px;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
