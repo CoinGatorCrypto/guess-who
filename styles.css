@@ -3,6 +3,7 @@ body {
 }
 
 .cards {
+    display: grid;
     background-color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     column-gap: 20px;
@@ -28,7 +29,7 @@ span {
 }
 
 img {
-    width: 25%;
+    width: 100%;
 }
 
 
