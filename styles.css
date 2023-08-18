@@ -10,6 +10,8 @@ body {
     align-items: center; 
     justify-content: center;
     justify-items: normal;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 
@@ -21,13 +23,16 @@ span {
 .header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    width 160px;
-    align-items: center; 
-    justify-content: center;
-    justify-items: normal;
-    
+    width: 160px;
 }
 
+.mystery-card {
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+    width: 100%;
+}
+   
 img {
     width: 100%;
 }
@@ -39,4 +44,16 @@ img {
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+.card {
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.instructions {
+    border-style: solid;
+    border-color: white;
+    border-width: 4px;
+    padding: 20px;
 }
