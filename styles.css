@@ -1,10 +1,11 @@
 body {
     background-color:#F0EFEC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
 }
 
 .cards {
     display: grid;
-    background-color: white;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     column-gap: 20px;
     align-items: center; 
@@ -12,6 +13,8 @@ body {
     justify-items: normal;
     margin-top: 40px;
     margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -22,8 +25,15 @@ span {
 
 .header {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 160px;
+    grid-template-columns: 50% 50%;
+    column-gap: 10px;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-content: center;
 }
 
 .mystery-card {
@@ -31,12 +41,13 @@ span {
     background-color: white;
     border-radius: 100%;
     width: 100%;
+    box-shadow: 1px 1px 10px #00000065;
+    text-align: center;
 }
    
 img {
     width: 100%;
 }
-
 
 .wrap {
     width: 900px;
@@ -49,6 +60,22 @@ img {
 .card {
     padding: 10px;
     border-radius: 6px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px #00000065;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card:hover {
+    padding: 6px;
+    border-radius: 6px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 10px #00000065;
+    transition: 0.5s;
 }
 
 .instructions {
@@ -57,3 +84,13 @@ img {
     border-width: 4px;
     padding: 20px;
 }
+
+span {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
