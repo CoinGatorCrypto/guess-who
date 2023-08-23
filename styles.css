@@ -65,7 +65,7 @@ img {
     margin-bottom: 10px;
     box-shadow: 1px 1px 10px #00000065;
     cursor: pointer;
-    text-align: center;
+    text-align: center; 
 }
 
 .card:hover {
@@ -94,3 +94,6 @@ h2 {
     text-align: center;
 }
 
+.eliminated {
+    opacity: 20%;
+}

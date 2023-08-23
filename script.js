@@ -1,1 +1,4 @@
-console.log(Guess Who?)
+function toggleEliminated() {
+    return document.querySelector(.eliminated).innerHTML
+
+}
