@@ -1,6 +1,4 @@
-function toggleEliminated('.card') {
-    let new = document.querySelector('div').classList.toggle('eliminated')
-    return new
+function toggleEliminated(cardClick) {
+    cardClick.classList.add('eliminated');
 }
-
 
