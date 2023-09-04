@@ -1,5 +1,5 @@
 function toggleEliminated(cardClick) {
-    cardClick.classList.add('eliminated');
+    cardClick.classList.toggle('eliminated');
 }
 
 let cards = [
@@ -94,6 +94,21 @@ function selectRandomCard() {
     mysteryImg.src = newImage
     mysteryName.innerHTML = selectedCard.name
 }
+selectRandomCard()  
+
+function populateCards() {
+    let cardsContainer = document.querySelector('.cards')
+    for (let x = 0; x < cards.length; x++) {
+        let cardImg = cards[x].image
+        let cardName = cards[x].name
+        cardsContainer.innerHTML = cardsContainer.innerHTML + 
+                                    `<div class="card" onclick='toggleEliminated(this)'>
+                                        <img src=images/${cardImg} />
+                                        <span>${cardName}</span>
+                                    </div>`
+    }
+}
+populateCards()
 
   
 
